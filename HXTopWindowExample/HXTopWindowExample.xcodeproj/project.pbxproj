@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		949C16BD1D41C733001D5E11 /* HXTopWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 949C16BC1D41C733001D5E11 /* HXTopWindow.m */; };
 		94DC83D91D40ADA800C4B5F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DC83D81D40ADA800C4B5F0 /* main.m */; };
 		94DC83DC1D40ADA800C4B5F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DC83DB1D40ADA800C4B5F0 /* AppDelegate.m */; };
 		94DC83E21D40ADA800C4B5F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94DC83E01D40ADA800C4B5F0 /* Main.storyboard */; };
@@ -15,7 +16,6 @@
 		94DC83FD1D40ADA900C4B5F0 /* HXTopWindowExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DC83FC1D40ADA900C4B5F0 /* HXTopWindowExampleUITests.m */; };
 		94DC840B1D40ADBD00C4B5F0 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94DC840A1D40ADBD00C4B5F0 /* Launch Screen.storyboard */; };
 		94DC840E1D40AE6700C4B5F0 /* HXExapleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DC840D1D40AE6700C4B5F0 /* HXExapleViewController.m */; };
-		94DC84141D40AF6200C4B5F0 /* HXTopWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DC84131D40AF6200C4B5F0 /* HXTopWindow.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		949C16BB1D41C733001D5E11 /* HXTopWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXTopWindow.h; sourceTree = "<group>"; };
+		949C16BC1D41C733001D5E11 /* HXTopWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXTopWindow.m; sourceTree = "<group>"; };
 		94DC83D41D40ADA800C4B5F0 /* HXTopWindowExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HXTopWindowExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94DC83D81D40ADA800C4B5F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		94DC83DA1D40ADA800C4B5F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -52,8 +54,6 @@
 		94DC840A1D40ADBD00C4B5F0 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		94DC840C1D40AE6700C4B5F0 /* HXExapleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXExapleViewController.h; sourceTree = "<group>"; };
 		94DC840D1D40AE6700C4B5F0 /* HXExapleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXExapleViewController.m; sourceTree = "<group>"; };
-		94DC84121D40AF6200C4B5F0 /* HXTopWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXTopWindow.h; sourceTree = "<group>"; };
-		94DC84131D40AF6200C4B5F0 /* HXTopWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXTopWindow.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +81,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		949C16BA1D41C733001D5E11 /* HXTopWindow */ = {
+			isa = PBXGroup;
+			children = (
+				949C16BB1D41C733001D5E11 /* HXTopWindow.h */,
+				949C16BC1D41C733001D5E11 /* HXTopWindow.m */,
+			);
+			path = HXTopWindow;
+			sourceTree = "<group>";
+		};
 		94DC83CB1D40ADA800C4B5F0 = {
 			isa = PBXGroup;
 			children = (
@@ -104,8 +113,7 @@
 		94DC83D61D40ADA800C4B5F0 /* HXTopWindowExample */ = {
 			isa = PBXGroup;
 			children = (
-				94DC84121D40AF6200C4B5F0 /* HXTopWindow.h */,
-				94DC84131D40AF6200C4B5F0 /* HXTopWindow.m */,
+				949C16BA1D41C733001D5E11 /* HXTopWindow */,
 				94DC840C1D40AE6700C4B5F0 /* HXExapleViewController.h */,
 				94DC840D1D40AE6700C4B5F0 /* HXExapleViewController.m */,
 				94DC83DA1D40ADA800C4B5F0 /* AppDelegate.h */,
@@ -278,7 +286,7 @@
 				94DC840E1D40AE6700C4B5F0 /* HXExapleViewController.m in Sources */,
 				94DC83DC1D40ADA800C4B5F0 /* AppDelegate.m in Sources */,
 				94DC83D91D40ADA800C4B5F0 /* main.m in Sources */,
-				94DC84141D40AF6200C4B5F0 /* HXTopWindow.m in Sources */,
+				949C16BD1D41C733001D5E11 /* HXTopWindow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +504,7 @@
 				94DC84031D40ADA900C4B5F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94DC84041D40ADA900C4B5F0 /* Build configuration list for PBXNativeTarget "HXTopWindowExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +513,7 @@
 				94DC84061D40ADA900C4B5F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94DC84071D40ADA900C4B5F0 /* Build configuration list for PBXNativeTarget "HXTopWindowExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +522,7 @@
 				94DC84091D40ADA900C4B5F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
