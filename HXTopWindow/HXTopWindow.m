@@ -1,9 +1,7 @@
 //
 //  HXTopWindow.m
-//  百思不得姐
 //
-//  Created by HuaXin on 16/7/21.
-//  Copyright © 2016年 HuaXin. All rights reserved.
+//  Created on 16/7/21.
 //
 
 #import "HXTopWindow.h"
